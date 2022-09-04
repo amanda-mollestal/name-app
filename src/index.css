@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* APP CONTAINER */ 
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #A2D6AE;
+  width: 100vw;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  width: 650px;
+  height: fit-content;
+  padding: 30px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #dbf0e0;
+  border: solid 1px #4F6955;
+  border-radius: 20px;
+}
+
+.hide {
+  visibility: hidden;
+  display: none;
+}
+
+/* NAME COLLECTOR */ 
+.name-collector {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  font-size: 25px;
+}
+
+.name-collector input {
+  width: 300px;
+  height: 30px;
+  font-size: 17px;
+  padding: 5px;
+  text-align: center;
+}
+
+
+
+/* FUTURE COLLECTOR */
+.future-generator {
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+  font-size: 20px;
+}
+
+/* BUTTON */
+.button {
+  width: 100px;
+  height: 27px;
+  font-size: 16px;
+  text-align: center;
+  padding: 3px;
+  background-color: #A2D6AE;
+  border-color: #4F6955;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+
+.button:hover { 
+  background-color: #71967a;
+}
